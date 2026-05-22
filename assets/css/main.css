@@ -143,33 +143,50 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #000000;
+ --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #1b1933;
+
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 15px 0;
+
+  padding: 8px 0;   /* reduced from 15px */
+  
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 999;
 }
 
 .header .logo {
-  line-height: 1;
-}
-
-.header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
-}
-
-.header .logo h1 {
-  font-size: 30px;
+  display: flex;
+  align-items: center;
   margin: 0;
-  font-weight: 700;
-  color: var(--heading-color);
+  padding: 0;
 }
 
+/* .header .logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+} */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
 .header .header-social-links {
   padding-right: 15px;
 }
@@ -218,11 +235,11 @@ h6 {
   }
 
   .navmenu ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
+   display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   }
 
   .navmenu li {
@@ -251,6 +268,10 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+      color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
   }
 
   .navmenu a i,
