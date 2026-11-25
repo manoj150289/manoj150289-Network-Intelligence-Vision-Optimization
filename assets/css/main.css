@@ -1,5 +1,7 @@
 /**
-* Template Name: Creativo
+* Template Name: 
+Network Intelligence Vision Optimization
+
 * Template URL: https://bootstrapmade.com/creativo-bootstrap-creative-agency-template/
 * Updated: Mar 23 2026 with Bootstrap v5.3.8
 * Author: BootstrapMade.com
@@ -143,33 +145,34 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
- --background-color: #000000;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #1b1933;
+    --background-color: #ffffff;
+    --default-color: #333333;
+    --heading-color: #1b2a1f;
+    --surface-color: #ffffff;
 
-  color: var(--default-color);
-  background-color: var(--background-color);
-
-  padding: 8px 0;   /* reduced from 15px */
-  
-  transition: all 0.5s;
-  z-index: 999;
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 8px 0;
+    transition: all 0.5s;
+    z-index: 999;
 }
 
 .header .logo {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
-/* .header .logo img {
-  height: 55px;
-  width: auto;
-  display: block;
-  object-fit: contain;
-} */
+.header .logo img {
+    height: 65px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    display: block;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -185,7 +188,7 @@ h6 {
 .logo-text {
   font-size: 24px;
   font-weight: 700;
-  color: #ffffff;
+  color: #1b2a1f;
 }
 .header .header-social-links {
   padding-right: 15px;
@@ -257,18 +260,18 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #333333;
     font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
-      color: white;
+      color: #379c0c;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -305,7 +308,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #379c0c;
   }
 
   .navmenu .dropdown ul {
@@ -376,6 +379,12 @@ h6 {
     transition: color 0.3s;
   }
 
+  @media (max-width: 768px) {
+    .header .logo img {
+        height: 55px;
+        max-width: 170px;
+    }
+}
   .navmenu {
     padding: 0;
     z-index: 9997;

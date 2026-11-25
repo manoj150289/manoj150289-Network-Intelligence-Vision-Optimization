@@ -1,6 +1,6 @@
 
-# Pentabrain IT Solutions Website
-# A responsive corporate website for Pentabrain IT Solutions showcasing services, company information, and contact details.
+# Network Intelligence Vision Optimization Website
+# A responsive corporate website for Network Intelligence Vision Optimization showcasing services, company information, and contact details.
 ## Features
 
 - Responsive design
@@ -32,5 +32,5 @@ Manoj Kumar
 
 ## License
 
-Pentabrain IT Solutions
+Network Intelligence Vision Optimization
 
